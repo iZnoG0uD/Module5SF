@@ -12,7 +12,7 @@
 
             for (int i = 0; i < 5; i++)
             {
-                Console.Write("\tВведите Ваше любимое блюдо: ");
+                Console.Write("\tВведите Ваше любимое блюдо №{0}: ", i + 1);
                 User.Dishes[i] = Console.ReadLine();
             }
 
